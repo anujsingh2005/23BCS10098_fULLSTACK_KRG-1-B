@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anuj Kumar Singh - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+</head>
+<body>
+  <div class="toggle-container">
+    <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+  </div>
+
+  <header>
+    <h1>Anuj Kumar Singh</h1>
+    <p>Hello, I am Anuj Kumar Singh. I am a Software Developer.</p>
+    <img src="a.jpg" alt="My Picture" width="100" height="100" />
+    <br>
+    <a href="Anuj_Resume.pdf" download class="download-btn">📄 Download Resume</a>
+  </header>
+
+  <nav>
+    <a href="#">Github</a>
+    <a href="https://www.linkedin.com/in/anuj-kumar-singh-09400821a/" target="_blank">LinkedIn</a>
+    <a href="#">Leetcode</a>
+  </nav>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>C++</li>
+      <li>Java</li>
+      <li>Spring</li>
+      <li>MongoDB</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ol>
+      <li><strong>Portfolio Website:</strong> Personal portfolio website to showcase my skills and projects.</li>
+      <li><strong>Weather App:</strong> Fetches data from weather API to display weather.</li>
+      <li><strong>Todo List App:</strong> Allows users to add, edit, and delete tasks.</li>
+      <li><strong>Blog Platform:</strong> A blogging platform to create and manage posts.</li>
+      <li><strong>E-commerce Site:</strong> Shopping site with cart and checkout features.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Qualification</h2>
+    <table>
+      <tr>
+        <th>Standard</th>
+        <th>Institute</th>
+        <th>Passing Year</th>
+        <th>Percentage</th>
+      </tr>
+      <tr>
+        <td>B.E. Computer Science</td>
+        <td>Chandigarh University</td>
+        <td>2027</td>
+        <td>8.45 CGPA</td>
+      </tr>
+      <tr>
+        <td>Intermediate</td>
+        <td>VIPS, Chhapra</td>
+        <td>2023</td>
+        <td>86%</td>
+      </tr>
+      <tr>
+        <td>Matriculation</td>
+        <td>SVM Maharajganj</td>
+        <td>2021</td>
+        <td>93%</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>Java Programming – Duke University</li>
+      <li>Full Stack Web Dev – Coursera</li>
+      <li>DSA – GeeksforGeeks</li>
+      <li>MongoDB Basics – MongoDB University</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone_no">Phone Number:</label>
+      <input type="tel" id="phone_no" name="phone_no" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>
